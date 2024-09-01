@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#background {
+    background-color: midnightblue;
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clock-border {
+    position: absolute;
+    background-color: midnightblue;
+    min-width: 350px;
+    min-height: 350px;
+    max-width: 500px;
+    max-height: 500px;
+    border: aqua 5px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.hand {
+    position: absolute;
+    background-color: aqua;
+    width: 50%;
+    height: 3px;
+    border-radius: 5px;
+    transform-origin: 100%;
+}
+
+.hour {
+    background-color: black;
+}
+
+.min {
+    background-color: azure;
+}
+
+.sec {
+    background-color: brown;
+}
+
+
