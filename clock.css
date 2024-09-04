@@ -25,27 +25,46 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    color: #fff;
 }
 
 .hand {
     position: absolute;
     background-color: aqua;
     width: 50%;
-    height: 3px;
     border-radius: 5px;
     transform-origin: 100%;
+    transform: rotate(90deg);
 }
 
 .hour {
     background-color: black;
+    height: 7px;
 }
 
 .min {
     background-color: azure;
+    height: 3px;
 }
 
 .sec {
-    background-color: brown;
+    background-color: rgb(252, 9, 9);
+    height: 1px;
 }
 
+#twelve {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
 
+#three {
+    position: absolute;
+    right: 0%;
+}
+
+#six {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+}
